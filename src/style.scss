@@ -165,12 +165,57 @@
             border-radius: 50%;
             object-fit: cover;
           }
+
+          .userChatInfo{
+            span{
+              font-size: 18px;
+              font-weight: 500;
+            }
+            p{
+              font-size: 14px;
+              color: lightgray;
+            }
+          }
         
 
     }
     }
     .chat{
       flex:2;
+
+      .chatInfo{
+        height: 50px;
+        background-color: #0c345e;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        color:lightgrey;
+
+      }
+
+      .chatIcons{
+        display: flex;
+        gap: 10px;
+
+        img{
+          height: 24px;
+          cursor: pointer;
+        }
+      }
+
+      .messages{
+        background-color: #c3d9e6;
+        padding: 10px;
+        height: calc(100% - 160px);
+
+      }
+
+      .input{
+      height: 50px;
+      background-color: #f0f0f0;
+      padding: 10px;
+      }
     }
   }
   
